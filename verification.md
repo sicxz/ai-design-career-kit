@@ -14,6 +14,7 @@ Date: 2026-05-05
 - [x] Confirm all guide content is visible with JavaScript disabled.
 - [x] Confirm copy buttons copy text or fall back to visible manual-selection guidance.
 - [x] Confirm dark/light theme toggle changes the Foundry theme without saving student data.
+- [x] Confirm hero action buttons have readable contrast in both light and dark themes.
 - [x] Confirm keyboard focus is visible on navigation links, buttons, details controls, and checklist inputs.
 - [x] Confirm desktop layout has no overlapping or clipped text.
 - [x] Confirm tablet layout has no overlapping or clipped text.
@@ -30,4 +31,5 @@ Date: 2026-05-05
 - Reworked the page to use the portable Foundry system from `foundry.css`, with the page-specific layout in `styles.css`.
 - Monochrome pass completed after review: page-level signal tokens now resolve to neutral Foundry values, and card/section emphasis uses black rules, grey surfaces, and typography.
 - Navigation pass completed after review: top bar now carries only the identity and theme action; guide navigation is a sticky aside rail on desktop and a normal document rail on small screens.
+- Button contrast pass completed after review: link-buttons now explicitly set primary and secondary text colors so anchor inheritance cannot create black-on-black or white-on-white states.
 - The comparison table intentionally scrolls inside its own wrapper on narrow screens. The page itself does not horizontally scroll.

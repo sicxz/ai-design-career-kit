@@ -171,6 +171,22 @@ h1 {
   min-height: 42px;
 }
 
+.button.f-button {
+  color: var(--f-ink-inverse);
+}
+
+.button.f-button:hover {
+  color: var(--f-ink-inverse);
+}
+
+.button.f-button.f-button--secondary {
+  color: var(--f-ink);
+}
+
+.button.f-button.f-button--secondary:hover {
+  color: var(--f-ink);
+}
+
 .career-map {
   border: 1px solid var(--f-hairline);
   background: var(--f-surface-raised);
