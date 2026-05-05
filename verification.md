@@ -8,6 +8,7 @@ Date: 2026-05-05
 - [x] Open the folder through a local static server.
 - [x] Confirm `foundry.css` is included locally and the page uses the Foundry `.foundry`, `f-topbar`, `f-button`, `f-section-head`, `f-table`, and callout patterns.
 - [x] Confirm cards and sections use black/gray emphasis instead of blue, green, amber, or red signal color.
+- [x] Confirm guide contents are in a document-style `aside` rail, not in the top bar or a tile grid.
 - [x] Confirm the page does not require Canvas, login, remote assets, or API access.
 - [x] Confirm all guide content is visible with JavaScript enabled.
 - [x] Confirm all guide content is visible with JavaScript disabled.
@@ -28,4 +29,5 @@ Date: 2026-05-05
 - Mobile screenshot: `verification-screenshots/mobile.png`.
 - Reworked the page to use the portable Foundry system from `foundry.css`, with the page-specific layout in `styles.css`.
 - Monochrome pass completed after review: page-level signal tokens now resolve to neutral Foundry values, and card/section emphasis uses black rules, grey surfaces, and typography.
+- Navigation pass completed after review: top bar now carries only the identity and theme action; guide navigation is a sticky aside rail on desktop and a normal document rail on small screens.
 - The comparison table intentionally scrolls inside its own wrapper on narrow screens. The page itself does not horizontally scroll.

@@ -81,7 +81,7 @@
   });
 
   var trackedSections = Array.prototype.slice.call(document.querySelectorAll("main section[id]"));
-  var navLinks = Array.prototype.slice.call(document.querySelectorAll(".nav-links a, .side-nav a"));
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll(".side-nav a"));
 
   if ("IntersectionObserver" in window && trackedSections.length > 0) {
     var observer = new IntersectionObserver(function (entries) {
